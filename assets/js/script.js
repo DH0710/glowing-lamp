@@ -18,7 +18,7 @@ function getWeather(event) {
     function get5dayforecast(event) {
         var getForecast = document.getElementById("city");
         console.log(getCity.value)
-        var getApi2 = "http://api.weatherapi.com/v1/forecast.json?key=7d749c5abe52471ab2210801220804&q=" + getCity.value + "&days=5&aqi=no&alerts=no"
+        var getApi2 = "http://api.weatherapi.com/v1/forecast.json?key=7d749c5abe52471ab2210801220804&q=" + getCity.value + "&days=5&aqi=no&alerts=no";
         fetch(getForecast).then((response) => {
             return response.json()
         }).then((data2) => {
@@ -27,16 +27,17 @@ function getWeather(event) {
         })
 
 
-        function randomWord(event) {
-            var getRandomword = document.getElementById("word");
-            console.log(getRandom.value)
+        function wordDef(event) {
+            var getRandomworddef = document.getElementById("word");
+            console.log(wordDef.value)
             var getApi3 = ""
-            fetch(getApi).then((response) => {
+            fetch(getApi3).then((response) => {
                 return response.json()
             }).then((data3) => {
                 console.log(data3)
+                document.querySelector()
 
-            }
+            })
         
 
 
@@ -49,4 +50,5 @@ function getWeather(event) {
 
     document.getElementById("search").addEventListener("click", getWeather, get5dayforecast)
     document.getElementById("search")
+}
 
