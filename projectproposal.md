@@ -19,9 +19,9 @@ along with giving you a new word of the day
 - Place various screens of your app here after they have been built
 
 ## Tech Stack
-- What languages is it written with: 
+- What languages is it written with: Javascript, Html and CSS along with jquery
 - What libraries are used: 
-- Other: 
+- Issues we faced (Damien had trouble with pushing to the repo so I made the commits and uploaded his java script work for him. HE did the work tho!)
 
 ## APIs
 
@@ -29,7 +29,7 @@ Lingua Robot API - used for dictionary
 Colorful Clouds Api - used for word of the day 
 
 ## MVP (Minimum Viable Product)
-- Be able to display the 7 day forcast for the city clicked; New York, Houston and Chicago and also display a new generated word along with a definition and be able to generate a new word by clicking "generate new word" button
+- Be able to display the 7 day forcast for the city name; New York, Houston and Chicago and display the 5 day forcast. The web page will also display a new generated word and be able to generate a new word by clicking "generate new word" button
 
 ## Stretch Goals
-Display a colorful website design and display the 7 day forecast in a visual way.
+Be able to display detailed forecast. Future build will have Word of the day along with a definition and voice speech to pronounce the word of the day.
