@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,18 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Weather App</title>
 </head>
+
+<body>
+    <input id="city" type="text" placeholder="search" />
+    <button id="search">Click Here To Search</button>
+    <div class="current">
+        <div class="location">
+            <h1 class="location-timezone"></h1>
+            <div class="Icon"> <img class="Iconimg" /></div> <span id="cityName"></span>
+        </div>
+        <div class="temperature">
+            <div class="degeree-section">
+                <h2 class="temperature-degree"><span id="temp"></span></h2><span>F</span>
 
 <body>
     <input id="city" type="text" placeholder="search" />
@@ -22,11 +33,30 @@
         <div class="temperature">
             <div class="degeree-section">
                 <h2 class="temperature-degree"><span id="temp">temp</span></h2><span>F</span>
+
             </div>
             <div class="temperature-description">
             </div>
         </div>
     </div>
+
+    <div id="forecastContainer">
+        <div class="day1">
+            <p class="highValues" id="day1high"></p>
+            <p class="lowValues" id="day1low"></p>
+        </div>
+        <div class="day2">
+            <p class="highValues" id="day2high"></p>
+            <p class="lowValues" id="day2low"></p>
+        </div>
+    </div>
+    <input id="word" type="text" placeholder="definition" />
+    <button id="definition">Click Here To Get Defintion</button>
+    <div class="worddef">
+    </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
 
     <div class="future">
         <div class="location">
@@ -76,18 +106,8 @@
 
         <input id="word" type="text" placeholder="search" />
     <button id="search">Click Here To Get Random Word</button>
-
-
-
-
-
+      
     </div>
-
-
-
-
     <script src="./assets/js/script.js"></script>
 </body>
-
-
 </html>
