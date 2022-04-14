@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/style.css">
   <title>Weather App</title>
 </head>
 
 <body>
-  <input id="city" type="text" placeholder="search" />
-  <button id="search">Click Here To Search</button>
+  <br>
+  <br>
+  <h1>Start Your Day Right!🌞</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <input id="city" type="text" placeholder="City/Zipcode"/>
+  <button id="search">Get Today's Weather</button>
   <div class="current">
     <div class="location">
       <h1 class="location-timezone"></h1>
@@ -19,40 +26,26 @@
     </div>
     <div class="temperature">
       <div class="degeree-section">
-        <h2 class="temperature-degree"><span id="temp"></span></h2><span>F</span>
+        <h2 class="temperature-degree"><span id="temp"></span></h2><span>°F</span>
       </div>
       <div class="temperature-description">
       </div>
     </div>
   </div>
-  <div id="forecastContainer">
+  <div class="forecast">
     <div class="day1">
-      <p class="highValues" id="day1high"></p>
-      <p class="lowValues" id="day1low"></p>
+      <h1 class="temp1high"></h1>
+      <h1 class="temp1low"></h1>
     </div>
     <div class="day2">
-      <p class="highValues" id="day2high"></p>
-      <p class="lowValues" id="day2low"></p>
+      <h1 class="day2high"></h1>
+      <h1 class="day2low"></h1>
     </div>
-    <div class="day3">
-      <p class="highValues" id="day2high"></p>
-      <p class="lowValues" id="day2low"></p>
-    </div>
-    <div class="day4">
-      <p class="highValues" id="day2high"></p>
-      <p class="lowValues" id="day2low"></p>
-    </div>
-    <div class="day5">
-      <p class="highValues" id="day2high"></p>
-      <p class="lowValues" id="day2low"></p>
-    </div>
-  </div>
-  <input id="word" type="text" placeholder="definition" />
-  <button id="definition">Click Here To Get Defintion</button>
-  <div class="worddef">
-  </div>
-  </div>
-  <script src="./assets/js/script.js"></script>
 </body>
-
-</html>
+  <button id="searchword">Click For Your Word Of The Day!</button>
+  <br>
+  <br>
+  <br>
+  <div class="word">
+  <script src="assets/script.js"></script>
+  </div>
